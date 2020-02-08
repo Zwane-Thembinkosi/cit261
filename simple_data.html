@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="appContainer">
+        <h1>Local Storage</h1>
+        <h4>Simple Data</h4>
+        <input type="text" id="txtItemKey" placeholder="key">
+        <br>
+        <input type="text" id="txtItemValue" placeholder="Value">
+        <br>
+        <button id="btnAdd" onclick="addItem()">Add Item</button>
+        <br>
+        <button id="btnGet" onclick="getItem()">Get Item</button>
+        <br>
+        <button id="btnDelete" onclick="deleteItem()">Remove Item</button>
+    </div>
+    <ul id="lstItems">
+    </ul>
+    <script type="text/javascript" src="simple_data.js"></script>
+</body>
+
+</html>

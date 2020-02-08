@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+}
+input{
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 90%;
+    padding: 13px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    border-color: grey;
+}
+
+button{
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 100%;
+    padding: 13px;
+    border-radius: 7px;
+    border-style: none;
+    border-width: 1px;
+    font-size: 15px;
+    font-weight: 50px;
+    color: white;
+    border-color: grey;
+}
+
+#btnAdd{
+    background-color: #58D68D;
+}
+
+#btnGet{
+    background-color: #85C1E9;
+}
+
+#btnDelete{
+    background-color: #FF0033 ;
+}
+div{
+    margin-top: 100px;
+    text-align: center;
+}
+#appContainer{
+    margin: 0  auto;
+    width: 200px;
+}
